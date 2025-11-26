@@ -44,7 +44,7 @@ int main(int ac, char **av)
             else
                 printf("%c", c);
         }
-    r = read(0, &c, 1);
-    if (r < 0) { perror("Error: "); return (1); }
+    	r = read(0, &c, 1);
+    	if (r < 0) { perror("Error: "); return (1); }
     }
 }
